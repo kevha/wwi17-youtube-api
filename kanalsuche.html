@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Webseite</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" />
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="kanalsuche.js"></script>
+  <script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+</head>
+
+
+
+
+<body>
+
+<!-- Navigations Leiste -->
+<nav class="navbar navbar-dark bg-dark justify-content-between">
+  <a class="navbar-brand" style="color:Grey;" href="videosuche.html">
+    <img img src="img/video.svg" height="35" width="50"/></img>
+    Video suchen
+  </a>
+  <a class="navbar-brand" href="kanalsuche.html">
+    <img img src="img/kanal.png" height="35" width="40"/></img>
+    Kanal suchen
+  </a>
+  <a class="navbar-brand" href="favoriten.html" style="color:Grey;">
+    <img img src="img/stern.png" height="35" width="35" /></img>
+    Favoriten
+  </a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" id="search" placeholder="Kanalnamen eingeben" aria-label="Search">
+    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Suche</button>
+  </form>
+</nav>
+
+<!-- Bereich, wo später die Results angezeigt werden -->
+<div id="results">
+  <br /><br /><br /><br /><br />
+  <p>
+    <center>
+      <h4>
+        Bitte Suchwort eingeben.
+      </h4>
+    </center>
+  </p>
+</div>
+
+<br /><br />
+
+</body>
+
+</html>
