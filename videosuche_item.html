@@ -8,16 +8,32 @@
     <!-- Video einbetten mithilfe von VideoId -->
     <iframe class="video w100" width="640" height="360" src="//www.youtube.com/embed/{{videoid}}" frameborder="0" allowfullscreen></iframe>
 
-    <center>
-      <img img src="img/stern-grau.png" height="35" width="35"/></img>
-    </center>
-
     <!-- Wird zum Testen verwendet-->
     <br />
     VideoID: {{videoid}}
 
 
     <br /><br />
+
+    <div id="share-buttons">
+        <a href="mailto:?Subject={{title}}&amp;Body=Ich%20habe%20hier%20ein%20Video%20für%20dich!%20https://www.youtube.com/watch?v={{videoid}}">
+            <img src="img/Teilen/email.png" alt="Email" />
+        </a>
+        <a href="http://www.facebook.com/sharer.php?u=https://www.youtube.com/watch?v={{videoid}}" target="_blank">
+            <img src="img/Teilen/facebook.png" alt="Facebook" />
+        </a>
+        <a href="https://plus.google.com/share?url=https://www.youtube.com/watch?v={{videoid}}" target="_blank">
+            <img src="img/Teilen/google.png" alt="Google" />
+        </a>
+        <a href="http://reddit.com/submit?url=https://www.youtube.com/watch?v={{videoid}}&amp;title={{title}}" target="_blank">
+            <img src="img/Teilen/reddit.png" alt="Reddit" />
+        </a>
+        <a href="https://twitter.com/share?url=https://www.youtube.com/watch?v={{videoid}}&amp;text={{title}}" target="_blank">
+            <img src="img/Teilen/twitter.png" alt="Twitter" />
+        </a>
+    </div>
+
+    <br />
 
   </center>
   </div>
