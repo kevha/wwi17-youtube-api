@@ -15,7 +15,27 @@ body {
     min-width: 20em;
     margin-left: 15em;
   }
-
+  #ausenblock1 {
+    margin-top:25px;
+    margin-left:25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+  #ausenblock2 {
+  }
+  #ausenblock3 {
+    height: 25xp;
+    width: 100%;
+  }
+  #ausenblock4 {
+    padding-bottom: 100px;
+  }
+  .grid-container{
+    margin-top:25px;
+    margin-left:25px;
+    margin-right: 25px;
+    height: 800px;
+  }
   block2 {
     float: right;
     width: 47%;
@@ -23,8 +43,6 @@ body {
     border: 2px solid rgba(0, 0, 0, 0.8);
     font-size: 40px;
     background-color: #d9d9d9;
-    margin-top: 25px;
-    margin-right: 25px;
     border-radius:20px;
   }
 
@@ -35,20 +53,16 @@ body {
     border: 2px solid rgba(0, 0, 0, 0.8);
     font-size: 40px;
     background-color: #d9d9d9;
-    margin-top:25px;
-    margin-left:25px;
     border-radius:20px;
   }
 
   block3 {
     float: left;
-    width: 96.5%;
+    width: 100%;
     height: 200px;
     border: 2px solid rgba(0, 0, 0, 0.8);
     font-size: 40px;
     background-color: #bbbbbb;
-    margin-top:25px;
-    margin-left:25px;
     border-radius:20px;
   }
 
