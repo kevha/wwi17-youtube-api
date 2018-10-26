@@ -35,7 +35,6 @@ body {
     border: 2px solid rgba(0, 0, 0, 0.8);
     font-size: 40px;
     background-color: #d9d9d9;
-    margin-top:25px;
     margin-left:25px;
     border-radius:20px;
   }
@@ -46,7 +45,6 @@ body {
     border: 2px solid rgba(0, 0, 0, 0.8);
     font-size: 40px;
     background-color: #bbbbbb;
-    margin-top:25px;
     margin-left:25px;
     border-radius:20px;
   }
@@ -60,12 +58,13 @@ body {
   block2:hover{
     background-color: #c0c0c0;
   }
+
   .center {
     margin: auto;
     width: 60%;
     border: 3px solid #73AD21;
     padding: 10px;
-}
+  }
 
 
 
