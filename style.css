@@ -5,7 +5,9 @@ body {
   text-align: center;
 }
 
-/**
+
+
+
 .grid-container {
   display: grid;
   grid-column-gap: 50px
@@ -31,4 +33,3 @@ body {
   font-size: 30px;
   text-align: center;
 }
-**/
