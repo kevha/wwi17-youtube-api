@@ -16,7 +16,7 @@ body {
     margin-left: 15em;
   }
 
-  block {
+  block2 {
     float: right;
     width: 47%;
     height: 400px;
@@ -28,7 +28,7 @@ body {
     border-radius:20px;
   }
 
-  block2 {
+  block1 {
     float: left;
     width: 47%;
     height: 400px;
@@ -39,9 +39,20 @@ body {
     margin-left:25px;
     border-radius:20px;
   }
+  block3 {
+    float: left;
+    width: 97.5%;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+    background-color: #bbbbbb;
+    margin-top:25px;
+    margin-left:25px;
+    border-radius:20px;
+  }
 
   /* Änderung der Farbe wenn Maus über Block1 fährt */
-  block:hover{
+  block1:hover{
     background-color: #c0c0c0;
   }
 
@@ -49,6 +60,8 @@ body {
   block2:hover{
     background-color: #c0c0c0;
   }
+
+
 
   .grid-item{
     padding-top:25%;
