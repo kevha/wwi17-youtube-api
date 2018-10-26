@@ -11,82 +11,86 @@ body {
 }
 
 /* zweispaltiges Layout */
-  main {
-    min-width: 20em;
-    margin-left: 15em;
-  }
-  #ausenblock1 {
-    margin-top:25px;
-    margin-left:25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-  }
-  #ausenblock2 {
-  }
-  #ausenblock3 {
-    height: 25px;
-    width: 100%;
-  }
-  #ausenblock4 {
-    padding-bottom: 100px;
-  }
-  .grid-container{
-    margin-top:25px;
-    margin-left:25px;
-    margin-right: 25px;
-    height: 800px;
-  }
-  block2 {
-    float: right;
-    width: 47%;
-    height: 400px;
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    font-size: 40px;
-    background-color: #d9d9d9;
-    border-radius:20px;
-  }
+main {
+  min-width: 20em;
+  margin-left: 15em;
+}
 
-  block1 {
-    float: left;
-    width: 47%;
-    height: 400px;
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    font-size: 40px;
-    background-color: #d9d9d9;
-    border-radius:20px;
-  }
+#ausenblock1 {
+  margin-top:25px;
+  margin-left:25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
 
-  block3 {
-    float: left;
-    width: 100%;
-    height: 200px;
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    font-size: 40px;
-    background-color: #bbbbbb;
-    border-radius:20px;
-  }
+#ausenblock2 {
+}
 
-  /* Änderung der Farbe wenn Maus über Block1 fährt */
-  block1:hover{
-    background-color: #c0c0c0;
-  }
+#ausenblock3 {
+  height: 25px;
+  width: 100%;
+}
 
-  /* Änderung der Farbe wenn Maus über Block2 fährt */
-  block2:hover{
-    background-color: #c0c0c0;
-  }
+#ausenblock4 {
+  padding-bottom: 100px;
+}
 
-  .grid-item{
-    padding-top:25%;
-    padding-left:35%;
-    color: #202020;
-  }
+.grid-container{
+  margin-top:25px;
+  margin-left:25px;
+  margin-right: 25px;
+  height: 800px;
+}
 
-  /* Größe der Teilen-Buttons */
-  #share-buttons img {
-    width: 50px;
-    padding: 5px;
-    display: inline;
-  }
+block2 {
+  float: right;
+  width: 47%;
+  height: 400px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  background-color: #d9d9d9;
+  border-radius:20px;
+}
 
+block1 {
+  float: left;
+  width: 47%;
+  height: 400px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  background-color: #d9d9d9;
+  border-radius:20px;
+}
+
+block3 {
+  float: left;
+  width: 100%;
+  height: 200px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  background-color: #bbbbbb;
+  border-radius:20px;
+}
+
+/* Änderung der Farbe wenn Maus über Block1 fährt */
+block1:hover{
+  background-color: #c0c0c0;
+}
+
+/* Änderung der Farbe wenn Maus über Block2 fährt */
+block2:hover{
+  background-color: #c0c0c0;
+}
+
+.grid-item{
+  padding-top:25%;
+  padding-left:35%;
+  color: #202020;
+}
+
+/* Größe der Teilen-Buttons */
+#share-buttons img {
+  width: 50px;
+  padding: 5px;
+  display: inline;
 }
