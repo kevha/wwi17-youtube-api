@@ -7,29 +7,25 @@ body {
 
 
 
+@media (min-width: 12em)  {	/* zweispaltiges Layout für mittlere Viewports */
+  main {
+    min-width: 20em;
+    margin-left: 15em;
+  }
 
-.grid-container {
-  display: grid;
-  grid-column-gap: 50px
-  grid-template-columns: auto auto auto;
-  background-color: #EEEEEE;
-  padding: 10px;
-}
-.grid-item1 {
-  display:inline-block;
-  float:left;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-.grid-item2 {
-  display:inline-block;
-  float:right;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+  block {
+    float: right;
+    width: 12em;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+    background-color: #d9d9d9;
+  }
+
+  block2 {
+    float: left;
+    width: 12em;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+    background-color: #d9d9d9;
+  }
 }
