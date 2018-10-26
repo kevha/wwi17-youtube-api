@@ -26,6 +26,9 @@ body {
     margin-right: 25px;
     border-radius:20px;
   }
+  block:hover{
+    background-color: #c0c0c0;
+  }
 
   block2 {
     float: left;
@@ -37,6 +40,9 @@ body {
     margin-top:25px;
     margin-left:25px;
     border-radius:20px;
+  }
+  block2:hover{
+    background-color: #c0c0c0;
   }
   .grid-item{
     padding-top:25%;
