@@ -15,7 +15,7 @@ body {
 
   block {
     float: right;
-    width: 12em;
+    width: 20em;
     border: 1px solid rgba(0, 0, 0, 0.8);
     font-size: 40px;
     background-color: #d9d9d9;
@@ -23,7 +23,7 @@ body {
 
   block2 {
     float: left;
-    width: 12em;
+    width: 20em;
     border: 1px solid rgba(0, 0, 0, 0.8);
     font-size: 40px;
     background-color: #d9d9d9;
