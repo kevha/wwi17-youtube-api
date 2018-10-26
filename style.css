@@ -5,11 +5,12 @@ body {
   text-align: center;
 }
 
+  /* Rahmen bei den Items (Bei Suche) */
 .item{
   border: 2px solid rgba(0, 0, 0, 0.8);
 }
 
-@media (min-width: 12em)  {	/* zweispaltiges Layout für mittlere Viewports */
+/* zweispaltiges Layout */
   main {
     min-width: 20em;
     margin-left: 15em;
@@ -26,9 +27,6 @@ body {
     margin-right: 25px;
     border-radius:20px;
   }
-  block:hover{
-    background-color: #c0c0c0;
-  }
 
   block2 {
     float: left;
@@ -41,19 +39,26 @@ body {
     margin-left:25px;
     border-radius:20px;
   }
+
+  /* Änderung der Farbe wenn Maus über Block1 fährt */
+  block:hover{
+    background-color: #c0c0c0;
+  }
+
+  /* Änderung der Farbe wenn Maus über Block2 fährt */
   block2:hover{
     background-color: #c0c0c0;
   }
+
   .grid-item{
     padding-top:25%;
     padding-left:35%;
   }
 
+  /* Größe der Teilen-Buttons */
   #share-buttons img {
     width: 50px;
     padding: 5px;
-    border: 0;
-    box-shadow: 0;
     display: inline;
   }
 
