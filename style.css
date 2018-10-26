@@ -38,6 +38,10 @@ body {
     margin-left:25px;
     border-radius:20px;
   }
+  .grid-item{
+    padding-top:25%;
+    padding-left:35%;
+  }
 
   #share-buttons img {
     width: 50px;
