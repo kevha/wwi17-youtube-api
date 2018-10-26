@@ -71,6 +71,9 @@ block3 {
   background-color: #bbbbbb;
   border-radius:20px;
 }
+ausenblock2{
+  margin-right: 50px;
+}
 
 /* Änderung der Farbe wenn Maus über Block1 fährt */
 block1:hover{
