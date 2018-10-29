@@ -61,10 +61,12 @@
   </a>
   </div>
 
+
   <div id="ausenblock3">
   <block3 class="center">
-    <h1>Informationen</h1>
-	<p>
+
+    <center><h1>Informationen</h1></center>
+
 	<?php
 	if ($nocookie =="true"){
 		echo "Willkommen auf dieser Seite!";
@@ -102,10 +104,11 @@
 
 ?>
 
-</block3>
-
-
+  </block3>
 	</div>
+
+
+
 	 <div id="ausenblock4">
 		<block3 class="center">
     </block3>
