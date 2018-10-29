@@ -66,21 +66,38 @@
     <h1>Informationen</h1>
 	<p>
 	<?php
+	
 	$cookie = "1";
+	$zaehler= "0";
 	if (isset ($_COOKIE['youapiwwi'])) { 
      $cookie = $_COOKIE['youapiwwi'];
 	}  
+	if (isset ($_COOKIE['youapiwwizaehler'])) { 
+     $zaehler = $_COOKIE['youapiwwizaehler'];
+	 $zaehler=$zaehler+1;
+	}
 
+	if($zaehler == "0" ){
+		setcookie("youapiwwizaehler","1",time()+(3600*24));		
+	}
 
-if($cookie == "0" ){
-	echo "Willkommen zurück. Schön das du wieder da bist!";
-	
-}
-else{
-	echo "Willkommen auf unserer Seite! Wir hoffen dir gefällt es hier";
-	setcookie("youapiwwi","0",time()+(3600*24));
-}
-
+	if($cookie == "0" ){
+		echo "Willkommen zurück. Schön das du wieder da bist!";
+	}
+	else{
+		echo "Willkommen auf unserer Seite! Wir hoffen dir gefällt es hier";
+		setcookie("youapiwwi","0",time()+(3600*24));
+	}
+	if($zaehler == "1" ){
+		echo "<p>";
+		echo "Du bist das erste mal auf unserer Website!";
+		echo "<p/>";
+	}
+	else{
+		echo "<p>";
+		echo "Du bist das ".$zaehler.". mal auf unserer Website!";
+		echo "<p/>";
+	}
 
 
 
