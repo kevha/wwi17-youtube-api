@@ -23,7 +23,7 @@
 
 <!-- Navigations Leiste -->
 <nav class="navbar navbar-dark bg-dark justify-content-between">
-  <a class="navbar-brand" href="index.php" style="color:Grey;">
+  <a class="navbar-brand" href="index.php" style="color;">
     <img img src="img/stern.png" height="35" width="35" /></img>
     Startseite
   </a>
@@ -31,29 +31,77 @@
     <img img src="img/video.svg" height="35" width="50"/></img>
     Video suchen
   </a>
-  <a class="navbar-brand" href="kanalsuche.html">
+  <a class="navbar-brand" style="color:Grey;" href="kanalsuche.html">
     <img img src="img/kanal.png" height="35" width="40"/></img>
     Kanal suchen
   </a>
+
   <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" id="search" placeholder="Kanalnamen eingeben" aria-label="Search">
-    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Suche</button>
+    <input class="form-control mr-sm-2" type="search" id="search" placeholder="Seite wechseln" aria-label="Search" disabled>
+    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit" disabled>Suche</button>
   </form>
 </nav>
 
-<!-- Bereich, wo später die Results angezeigt werden -->
-<div id="results">
-  <br /><br /><br /><br /><br />
-  <p>
-    <center>
-      <h4>
-        Bitte Suchwort eingeben.
-      </h4>
-    </center>
-  </p>
-</div>
 
-<br /><br />
+
+
+<div class="grid-container">
+  <div id="ausenblock1">
+  <div id="ausenblock2">
+  <a href="kanalsuche.html">
+    <block1 class="center">
+      <div class="grid-item">Kanalsuche</div>
+    </block1>
+  </a>
+
+  <a href="videosuche.html">
+    <block2 class="center">
+      <div class="grid-item">Videosuche</div>
+    </block2>
+  </a>
+  </div>
+
+  <div id="ausenblock4">
+  <block3 class="center">
+    <h1>Informationen</h1>
+	<p>
+	<?php
+	$cookie = "1";
+	if (isset ($_COOKIE['youapiwwi'])) { 
+     $cookie = $_COOKIE['youapiwwi'];
+	}  
+
+
+if($cookie == "0" ){
+	echo "Willkommen zurück. Schön das du wieder da bist!";
+	
+}
+else{
+	echo "Willkommen auf unserer Seite! Wir hoffen dir gefällt es hier";
+	setcookie("youapiwwi","0",time()+(3600*24));
+}
+
+
+
+
+
+?>
+
+	</p>
+	
+  </block3>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+<br /><br /><br />
 
 </body>
 
