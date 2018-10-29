@@ -5,5 +5,7 @@
 2. Entpackte Dateien auf einen php-fähigen Webserver hochladen
 3. URL des Webservers aufrufen
 
+## Videosuche:
 ![alt text](http://solartec-hartmann.de/yt/img/Screenshot.JPG)
+## Kanalsuche:
 ![alt text](http://solartec-hartmann.de/yt/img/Screenshot2.JPG)
