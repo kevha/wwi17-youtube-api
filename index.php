@@ -47,82 +47,82 @@
 
 <div class="grid-container">
   <div id="ausenblock1">
-  <div id="ausenblock2">
-  <a href="kanalsuche.html">
-    <block1 class="center">
-      <div class="grid-item">Kanalsuche</div>
-    </block1>
-  </a>
+    <div id="ausenblock2">
+      <a href="kanalsuche.html">
+        <block1 class="center">
+          <div class="grid-item">Kanalsuche</div>
+        </block1>
+      </a>
 
-  <a href="videosuche.html">
-    <block2 class="center">
-      <div class="grid-item">Videosuche</div>
-    </block2>
-  </a>
-  </div>
+      <a href="videosuche.html">
+        <block2 class="center">
+          <div class="grid-item">Videosuche</div>
+        </block2>
+      </a>
+    </div>
 
 
   <div id="ausenblock3">
-  <block3 class="center">
+    <block3 class="center">
 
-    <center><h1>Informationen</h1></center>
+        <center><h1>Informationen</h1></center>
 
-	<?php
-	if ($nocookie =="true"){
-		echo "Willkommen auf dieser Seite!";
+      	<?php
+          //Abfrage ob Cookie Funktion aktiviert/deaktiviert
+        	if ($nocookie =="true"){
+        		echo "Willkommen auf dieser Seite!";
 
+        	}
+        	else{
 
-	}
-	else{
-	$cookie = "1";
-	$zaehler= "1";
-	if (isset ($_COOKIE['youapiwwi'])) {
-     $cookie = $_COOKIE['youapiwwi'];
-	}
-	if (isset ($_COOKIE['youzaehler'])) {
-     $zaehler = $_COOKIE['youzaehler'];
-	 $zaehler=$zaehler+"1";
-	 setcookie("youzaehler",$zaehler,time()+(3600*24));
-	}
+        	$cookie = "1";
+        	$zaehler= "1";
 
-	if($cookie == "0" ){
-		echo "Willkommen zurück. Schön das du wieder da bist!";
-	}
-	else{
-		echo "Willkommen auf unserer Seite! Wir hoffen dir gefällt es hier";
-		setcookie("youapiwwi","0",time()+(3600*24));
-	}
-	if($zaehler == "1" ){
-		echo "<p>Du bist das erste mal auf unserer Website!</p>";
-		setcookie("youzaehler","1",time()+(3600*24));
+          //Abfrage, ob Cookie vorhanden
+        	if (isset ($_COOKIE['youapiwwi'])) {
+            $cookie = $_COOKIE['youapiwwi'];
+        	}
+        	if (isset ($_COOKIE['youzaehler'])) {
+            $zaehler = $_COOKIE['youzaehler'];
+        	  $zaehler = $zaehler + "1";
+        	  setcookie("youzaehler",$zaehler,time()+(3600*24));
+        	}
 
-	}
-	else{
-		echo "<p>Du bist das ".$zaehler.". mal auf unserer Website!</p>";
-	}}
+        	if($cookie == "0" ){
+        		echo "<p>Willkommen zurück. Schön das du wieder da bist!</p>";
+        	}
+        	else{
+        		echo "<p>Willkommen auf unserer Seite! Wir hoffen dir gefällt es hier.</p>";
+        		setcookie("youapiwwi","0",time()+(3600*24));
+        	}
+        	if($zaehler == "1" ){
+        		echo "<p>Du bist das erste mal auf unserer Website!</p>";
+        		setcookie("youzaehler","1",time()+(3600*24));
 
+        	}
+        	else{
+        		echo "<p>Du bist das ".$zaehler.". mal auf unserer Website!</p>";
+        	}}
+        ?>
 
-?>
-
-  </block3>
-	</div>
-
-
-
-	 <div id="ausenblock4">
-		<block3 class="center">
     </block3>
   </div>
 
-	<div id="ausenblock5">
-   <block3 class="center">
+
+
+  <div id="ausenblock4">
+  	<block3 class="center">
+    </block3>
+  </div>
+
+  <div id="ausenblock5">
+    <block3 class="center">
     <a href="loesch.php"> zurück auf main </a>
-	 </block3>
+    </block3>
   </div>
 
   </div>
-
-  </div>
+</div>
 
 
 
