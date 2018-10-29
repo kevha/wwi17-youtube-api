@@ -24,15 +24,15 @@
 <!-- Navigations Leiste -->
 <nav class="navbar navbar-dark bg-dark justify-content-between">
   <a class="navbar-brand" href="index.php" style="color;">
-    <img img src="img/stern.png" height="35" width="35" /></img>
+    <img img src="img/stern.png" height="35" width="35" />
     Startseite
   </a>
   <a class="navbar-brand" style="color:Grey;" href="videosuche.html">
-    <img img src="img/video.svg" height="35" width="50"/></img>
+    <img img src="img/video.svg" height="35" width="50"/>
     Video suchen
   </a>
   <a class="navbar-brand" style="color:Grey;" href="kanalsuche.html">
-    <img img src="img/kanal.png" height="35" width="40"/></img>
+    <img img src="img/kanal.png" height="35" width="40"/>
     Kanal suchen
   </a>
 
@@ -68,19 +68,19 @@
 	<?php
 	if ($nocookie =="true"){
 		echo "Willkommen auf dieser Seite!";
-		
-		
+
+
 	}
 	else{
 	$cookie = "1";
 	$zaehler= "1";
-	if (isset ($_COOKIE['youapiwwi'])) { 
+	if (isset ($_COOKIE['youapiwwi'])) {
      $cookie = $_COOKIE['youapiwwi'];
-	}  
-	if (isset ($_COOKIE['youzaehler'])) { 
+	}
+	if (isset ($_COOKIE['youzaehler'])) {
      $zaehler = $_COOKIE['youzaehler'];
 	 $zaehler=$zaehler+"1";
-	 setcookie("youzaehler",$zaehler,time()+(3600*24));	
+	 setcookie("youzaehler",$zaehler,time()+(3600*24));
 	}
 
 	if($cookie == "0" ){
@@ -92,31 +92,33 @@
 	}
 	if($zaehler == "1" ){
 		echo "<p>Du bist das erste mal auf unserer Website!</p>";
-		setcookie("youzaehler","1",time()+(3600*24));	
-			
+		setcookie("youzaehler","1",time()+(3600*24));
+
 	}
 	else{
-		echo "<p>Du bist das ".$zaehler.". mal auf unserer Website!</p>";	
+		echo "<p>Du bist das ".$zaehler.". mal auf unserer Website!</p>";
 	}}
 
 
+?>
+
+</block3>
 
 
-?></block3>
 	</div>
 	 <div id="ausenblock4">
 		<block3 class="center">
-		</block3">
-  </div>
-	<div id="ausenblock5">
-   <block3 class="center">
-    <a href="loesch.php"> zurück auf main </a> 
-	 </block3>
-  </a>
+    </block3>
   </div>
 
-  
+	<div id="ausenblock5">
+   <block3 class="center">
+    <a href="loesch.php"> zurück auf main </a>
+	 </block3>
   </div>
+
+  </div>
+
   </div>
 
 
