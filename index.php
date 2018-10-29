@@ -61,24 +61,26 @@
   </a>
   </div>
 
-  <div id="ausenblock4">
+  <div id="ausenblock3">
   <block3 class="center">
     <h1>Informationen</h1>
 	<p>
 	<?php
-	
+	if ($nocookie =="true"){
+		echo "Willkommen auf dieser Seite!";
+		
+		
+	}
+	else{
 	$cookie = "1";
-	$zaehler= "0";
+	$zaehler= "1";
 	if (isset ($_COOKIE['youapiwwi'])) { 
      $cookie = $_COOKIE['youapiwwi'];
 	}  
-	if (isset ($_COOKIE['youapiwwizaehler'])) { 
-     $zaehler = $_COOKIE['youapiwwizaehler'];
-	 $zaehler=$zaehler+1;
-	}
-
-	if($zaehler == "0" ){
-		setcookie("youapiwwizaehler","1",time()+(3600*24));		
+	if (isset ($_COOKIE['youzaehler'])) { 
+     $zaehler = $_COOKIE['youzaehler'];
+	 $zaehler=$zaehler+"1";
+	 setcookie("youzaehler",$zaehler,time()+(3600*24));	
 	}
 
 	if($cookie == "0" ){
@@ -89,36 +91,35 @@
 		setcookie("youapiwwi","0",time()+(3600*24));
 	}
 	if($zaehler == "1" ){
-		echo "<p>";
-		echo "Du bist das erste mal auf unserer Website!";
-		echo "<p/>";
+		echo "<p>Du bist das erste mal auf unserer Website!</p>";
+		setcookie("youzaehler","1",time()+(3600*24));	
+			
 	}
 	else{
-		echo "<p>";
-		echo "Du bist das ".$zaehler.". mal auf unserer Website!";
-		echo "<p/>";
-	}
+		echo "<p>Du bist das ".$zaehler.". mal auf unserer Website!</p>";	
+	}}
 
 
 
 
-?>
+?></block3>
+	</div>
+	 <div id="ausenblock4">
+		<block3 class="center">
+		</block3">
+  </div>
+	<div id="ausenblock5">
+   <block3 class="center">
+    <a href="loesch.php"> zurück auf main </a> 
+	 </block3>
+  </a>
+  </div>
 
-	</p>
-	
-  </block3>
+  
   </div>
   </div>
-  </div>
 
 
-
-
-
-
-
-
-<br /><br /><br />
 
 </body>
 
