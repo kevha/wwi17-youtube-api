@@ -2,7 +2,8 @@
 
 ## Start der Anwendung:
 1. Datei herunterladen und entpacken
-2. Entpackte Dateien auf einen Webserver hochladen
+2. Entpackte Dateien auf einen php-fähigen Webserver hochladen
 3. URL des Webservers aufrufen
 
-*Alternativ kann die Anwendung auf www.solartec-hartmann.de/yt/ aufgerufen werden.*
+![alt text](http://solartec-hartmann.de/yt/img/Screenshot.JPG)
+![alt text](http://solartec-hartmann.de/yt/img/Screenshot2.JPG)
