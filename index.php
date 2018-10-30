@@ -68,12 +68,8 @@
         <center><h1>Informationen</h1></center>
 
       	<?php
-          //Abfrage ob Cookie Funktion aktiviert/deaktiviert
-        	if ($nocookie =="true"){
-        		echo "Willkommen auf dieser Seite!";
 
-        	}
-        	else{
+
 
         	$cookie = "1";
         	$zaehler= "1";
@@ -102,7 +98,7 @@
         	}
         	else{
         		echo "<p>Du bist das ".$zaehler.". mal auf unserer Website!</p>";
-        	}}
+        	}
         ?>
 
     </block3>

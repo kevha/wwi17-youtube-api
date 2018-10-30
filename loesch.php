@@ -55,8 +55,7 @@
 	<div id="ausenblockCookie">
    <block3 class="center">
      Die Cookies wurden gelöscht.<br>
-     Diese Funktion wurde nun gesperrt.
-     <br>
+     
      <a href="index.php">Zurück auf die Homepage!</a>
 	 </block3>
   </div>
