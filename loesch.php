@@ -43,25 +43,25 @@
   </form>
 </nav>
 
-</html><?php
-$nocookie="true";
-setcookie("youapiwwi","",time() - 3600);
-setcookie("youzaehler","",time() - 3600);
+</html>
+
+<?php
+  $nocookie="true";
+  setcookie("youapiwwi","",time() - 3600);
+  setcookie("youzaehler","",time() - 3600);
 ?>
 <br>
 
 	<div id="ausenblockCookie">
    <block3 class="center">
-   Die Cookies wurden gelöscht.<br>
-   Diese Funktion wurde nun gesperrt.
-   <br>
-    <a href="index.php">Zurück auf die Homepage!</a> 
+     Die Cookies wurden gelöscht.<br>
+     Diese Funktion wurde nun gesperrt.
+     <br>
+     <a href="index.php">Zurück auf die Homepage!</a>
 	 </block3>
-  </a>
   </div>
 
 
 
 
 </body>
-
