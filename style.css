@@ -5,6 +5,12 @@ body {
   text-align: center;
 }
 
+#share-buttons img {
+  width: 50px;
+  padding: 5px;
+  display: inline;
+}
+
   /* Rahmen bei den Items (Bei Suche) */
 .item{
   border: 2px solid rgba(0, 0, 0, 0.8);
@@ -95,11 +101,5 @@ body {
     background-color: #c0c0c0;
   }
 
-  /* Größe der Teilen-Buttons festlegen */
-  #share-buttons img {
-    width: 50px;
-    padding: 5px;
-    display: inline;
-  }
 
 }
