@@ -63,9 +63,17 @@
 
   <div id="ausenblock3">
   <block3 class="center">
-    <h1>Informationen</h1>
-	<p>
-	<?php
+    <p><center><h1>Informationen</h1></center>
+	</p>Gehe auf eine der zwei Webseiten.<br>
+	Gebe einen Suchbegriff ein und klicke auf suchen.<br>
+	<b>VIEL SPAß</p>
+	
+</block3>
+	</div>
+	
+	 <div id="ausenblock4">
+		<block4 class="center">
+		<?php
 	
 	$cookie = "1";
 	$zaehler= "1";
@@ -94,15 +102,14 @@
 		echo "<p>Du bist das ".$zaehler.". mal auf unserer Homepage!</p>";	
 	}
 ?>
-</block3>
-	</div>
-	 <div id="ausenblock4">
-		<block4 class="center">
 		</block4">
   </div>
 	<div id="ausenblock5">
+	Die Seite generiert Cookies.<br>
+	Wenn du damit nicht zufrieden bisst und diese nicht akzeptierst <br>
+	werden sie auf dieser Seite direkt gelöscht:
    <block3 class="center">
-    <a href="loesch.php"> zurück auf main </a> 
+    <a href="loesch.php"> Klicke hier </a> 
 	 </block3>
   </a>
   </div>
