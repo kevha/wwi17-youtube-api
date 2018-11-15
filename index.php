@@ -93,11 +93,8 @@
 	else{
 		echo "<p>Du bist das ".$zaehler.". mal auf unserer Homepage!</p>";	
 	}
-
-
-
-
-?></block3>
+?>
+</block3>
 	</div>
 	 <div id="ausenblock4">
 		<block4 class="center">
