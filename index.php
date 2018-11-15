@@ -5,7 +5,7 @@
   <title>Webseite</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" />
-
+	
   <!-- bootstrap -->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
@@ -62,11 +62,15 @@
   </div>
 
   <div id="ausenblock3">
+  <block5 class="center">
+    
+	
+</block5>
   <block4 class="center">
-    <p><center><h1>Informationen</h1></center>
+    <p><center><h1><b>Informationen</b></h1></center>
 	</p>Gehe auf eine der zwei Webseiten.<br>
 	Gebe einen Suchbegriff ein und klicke auf suchen.<br>
-	<b>VIEL SPAß</p>
+	<b>VIEL SPAß</b>
 	
 </block4>
 	</div>
@@ -105,12 +109,13 @@
 		</block3">
   </div>
 	<div id="ausenblock5">
+	<block6 class="center">
 	Die Seite generiert Cookies.<br>
-	Wenn du damit nicht zufrieden bisst und diese nicht akzeptierst <br>
-	werden sie auf dieser Seite direkt gelöscht:
-   <block3 class="center">
-    <a href="loesch.php"> Klicke hier </a> 
-	 </block3>
+	Um diese Cookies zu löschen klicke folgenden Link:<br>
+	
+   
+    <a href="loesch.php"> Cookies löschen </a> 
+	 </block6>
   </a>
   </div>
 
