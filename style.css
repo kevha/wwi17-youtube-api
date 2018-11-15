@@ -78,6 +78,14 @@ block3 {
   font-size: 40px;
   border-radius:20px;
 }
+block4 {
+  float: left;
+  width: 100%;
+  height: 200px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  border-radius:20px;
+}
 ausenblock2{
   margin-right: 50px;
 }

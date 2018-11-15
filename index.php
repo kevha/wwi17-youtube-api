@@ -62,17 +62,17 @@
   </div>
 
   <div id="ausenblock3">
-  <block3 class="center">
+  <block4 class="center">
     <p><center><h1>Informationen</h1></center>
 	</p>Gehe auf eine der zwei Webseiten.<br>
 	Gebe einen Suchbegriff ein und klicke auf suchen.<br>
 	<b>VIEL SPAß</p>
 	
-</block3>
+</block4>
 	</div>
 	
 	 <div id="ausenblock4">
-		<block4 class="center">
+		<block3 class="center">
 		<?php
 	
 	$cookie = "1";
@@ -102,7 +102,7 @@
 		echo "<p>Du bist das ".$zaehler.". mal auf unserer Homepage!</p>";	
 	}
 ?>
-		</block4">
+		</block3">
   </div>
 	<div id="ausenblock5">
 	Die Seite generiert Cookies.<br>
